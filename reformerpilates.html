@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reformer Pilates 🤸🏻‍♀️</title>
+    <style>
+      body {
+        background: #1f3845;
+      }
+
+      h1 {
+        color: #f89f6f;
+        font-size: 30px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+      }
+
+      h2 {
+        color: #f89f6f;
+        font-size: 10px;
+        font-style: italic;
+        font-weight: 100;
+        font-family: sans-serif;
+        line-height: 0%;
+        text-align: center;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 40px 60px;
+      }
+
+      img {
+        display: block;
+        align-items: center;
+        margin: auto;
+        width: 500px;
+        height: 290px;
+        object-fit: cover;
+        padding: 10px 10px;
+        border-radius: 260px 260px 0 0;
+        border: 1px solid #f89f6f;
+      }
+
+      p {
+        display: block;
+        text-align: center;
+        line-height: 1.2;
+        margin: 20px auto;
+        color: #f89f6f;
+        font-size: 15px;
+        font-weight: 100;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      .benefits {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: #f89f6f;
+        font-size: 12px;
+        font-weight: 100;
+        font-style: italic;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+      }
+
+      .benefits:hover {
+        text-decoration: underline;
+      }
+
+      button {
+        background: transparent;
+        color: #f89f6f;
+        display: block;
+        font-size: 14px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-weight: 200;
+        margin: 30px auto;
+        padding: 10px 20px;
+        border: 1px solid #f89f6f;
+        border-radius: 100px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        transition: all 150ms ease-in-out;
+      }
+
+      button:hover {
+        background: #f89f6f;
+        color: #1f3845;
+        cursor: pointer;
+      }
+
+      .footer {
+        color: #f89f6f;
+        font-size: 12px;
+        font-weight: 100;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Reformer Pilates.</h1>
+      <br />
+      <div>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/022/612/original/Elina_pilates_reformer_elite_wood_1024x1024_2x.jpg?1639331028"
+          alt="pilates"
+        />
+      </div>
+      <p>
+        Not just any low impact exercise - it builds
+        <strong>"Core Strength, Muscle Toning, Flexibility, Posture"</strong>.
+        Pilates isn't limited to workouts on a mat - you can target your muscles
+        even more deeply by adding <strong><em>Pilates Reformer</em></strong> to
+        your practice! It's versatility allows you to perform workouts in
+        various positions, targeting different core muscles of your body.
+      </p>
+      <a
+        href="https://www.livestrong.com/article/261676-benefits-pilates-reformer-exercise/"
+        target="_blank"
+        class="benefits"
+      >
+        <u>Learn more about the benefits</u>
+      </a>
+      <button>Let's flex those muscles! 💪🏻</button>
+      <p class="footer">Page built by Chingyi. F 💁🏻‍♀️</p>
+    </div>
+    <script>
+      function signUp() {
+        let name = prompt("What is your name?");
+        let age = prompt("What is your age?");
+
+        if (age >= 18) {
+          alert(
+            "Hi " +
+              name +
+              "! Thank you for your kind interest! One last step before we're gonna flex those muscles of yours! 💪🏻"
+          );
+          let email = prompt("What is your email address?");
+          alert(
+            "See you real soon & we'll always be with you through this exciting journey! ❤️"
+          );
+        } else {
+          alert(
+            "Hi " +
+              name +
+              "! We're sorry, you need to be at a minimum age to join us. ☹️"
+          );
+        }
+      }
+
+      let signUpbutton = document.querySelector("button");
+      signUpbutton.addEventListener("click", signUp);
+    </script>
+  </body>
+</html>
