@@ -1,5 +1,5 @@
 # Simple Reformer Pilates Page
-(First Coding Project - SheCodes Basic)
+<b>First Coding Project - SheCodes Basic</b>
 - I took up SheCodes Basic course back in December 2021 to get the gist of what coding is
 - Project: To create a simple page of a topic I am interested in, using HTML/CSS/Javascript
 
